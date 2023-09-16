@@ -1,30 +1,32 @@
-The Movie DB React App
-Este projeto é um aplicativo React que utiliza a API The Movie DB para exibir informações sobre filmes e programas de TV.
+Projeto React VITRINE
+Este é um projeto React desenvolvido para atender aos requisitos especificados no teste. Ele inclui a criação de uma página que monta uma vitrine de produtos a partir de um arquivo JSON e permite a interação com os produtos por meio da abertura de um modal com informações detalhadas.
 
-Funcionalidades
-Pesquisa de filmes e programas de TV.
-Exibição de detalhes de um filme ou programa específico.
-Visualização de elenco, avaliações e outras informações relacionadas.
-Lista de filmes populares e em cartaz.
+Instruções
+Siga estas instruções para compilar, testar e rodar o projeto:
 
-Tecnologias Utilizadas
-React
-React Router
+Pré-requisitos
+Certifique-se de ter Node.js e npm instalados em sua máquina. Você pode baixá-los em nodejs.org.
 
-Como executar o projeto
-Certifique-se de ter o Node.js instalado (https://nodejs.org).
-Clone este repositório: git clone <URL_DO_REPOSITÓRIO>.
-Navegue até o diretório do projeto: cd movie-db-react-app.
+Configuração do Projeto
+Clone este repositório em sua máquina:
 
-Instale as dependências: npm install.
+bash
+Copy code
+git clone https://github.com/seu-usuario/nome-do-repositorio.git
+Navegue até o diretório do projeto:
 
-Obtenha uma API key do The Movie DB criando uma conta em [https://www.themoviedb.org/].
-Crie um arquivo .env na raiz do projeto e adicione a seguinte variável de ambiente: REACT_APP_API_KEY=SUA_API_KEY_AQUI.
-Inicie o servidor de desenvolvimento: npm start.
-Abra o aplicativo no navegador: http://localhost:3000.
-Sobre a The Movie DB API
-A The Movie DB API é uma API popular para obter informações sobre filmes e programas de TV. Ela fornece dados como detalhes de filmes, elenco, avaliações, trailers e muito mais. Para utilizar a API, é necessário se cadastrar no site oficial para obter uma API key. Você pode se cadastrar em [https://www.themoviedb.org/account/signup] e obter sua chave de API. Certifique-se de guardar sua chave de API com segurança e não compartilhá-la publicamente.
+bash
+Copy code
+cd nome-do-repositorio
+Instale as dependências do projeto:
 
-Lembre-se de substituir <URL_DO_REPOSITÓRIO> pela URL do seu repositório no GitHub, tanto para o projeto FakeStore quanto para o projeto The Movie DB. E, no segundo exemplo, substitua SUA_API_KEY_AQUI pela sua API key da The Movie DB.
+bash
+Copy code
+npm install
+Executando o Projeto
+Para executar o projeto localmente, você pode usar o seguinte comando:
 
-Esses são apenas exemplos básicos de README.md. Sinta-se à vontade para adicionar mais informações sobre o projeto, instruções detalhadas, capturas de tela, etc., de acordo com as necessidades do seu projeto.
+bash
+Copy code
+npm start
+Isso iniciará o servidor de desenvolvimento e abrirá o aplicativo em seu navegador padrão. Você pode acessá-lo em http://localhost:3000.
