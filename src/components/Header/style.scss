@@ -1,0 +1,169 @@
+$corbranco: #FFFF;
+$corrosaprimario:#F71963;
+$corcinza1:#9F9F9F;
+$corcinza2:#F6F5F2;
+$corcinza3: #F0F0F0;
+$corpreta3:#4E4E4E;
+$corpreta2:#3F3F40;
+$corpreta1:#2A2A2A;
+$corcinza2:#808080;
+$corcinza4: #F0F0F0;
+
+
+.container {
+
+    display: flex;
+    flex-direction: column;
+    margin: 0 86px 0 86px;
+    
+    
+}
+.container__topo {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    font-size: 12px;
+    font-weight: 500;
+    color: $corcinza1;
+    padding-top: 5px;
+    border-bottom: solid $corcinza3 1px;
+    padding-bottom: 7px;
+}
+
+.icones {
+
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+
+
+}
+
+.container__icones {
+
+    display: flex;
+    align-items: center;
+}
+
+
+p {
+
+    font-weight: 600;
+    color: $corrosaprimario;
+    margin-right: 5px;
+    
+}
+
+
+.span__compra {
+
+    margin-right: 5px;
+}
+
+
+.icone__vtex {
+    width: 139px;
+    height: 50.64px;
+    cursor: pointer;
+
+}
+
+
+.container__busca {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 7px;
+    background-color: $corbranco;
+    border-bottom: solid $corcinza3 1px;
+    padding-bottom: 7px;
+}
+
+
+#campoBusca {
+
+    width:657px;
+    height: 48px;
+    border: none;
+    background: $corcinza3;
+    border-radius: 10px;
+    padding-left: 20px;
+   
+    
+   
+}
+
+
+.icone__lupa {
+
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 28px;
+    height: 28px;
+    cursor: pointer;
+
+}
+
+
+.container__form {
+
+    position: relative;
+    font-weight: 500;
+    font-size: 14px;
+    color: $corcinza1;
+
+}
+
+
+.container__busca--icones {
+
+    display: flex;
+    gap: 18px;
+    cursor: pointer;
+
+}
+
+
+.icones__busca {
+    width: 32px;
+    height: 32px;
+
+}
+
+
+.icone__coroa {
+
+    display: flex;
+    align-items: center;
+
+}
+
+
+.container__categorias {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 13px;
+    height: 40px;
+    font-weight: 600;
+    font-size: 12px;
+    color: $corcinza1;
+    border: 1px $corcinza4 solid;
+    box-shadow: 0px 8px 16px 0px rgba(57, 48, 19, 0.12);
+    cursor: pointer;
+
+    
+}
+
+
+
+
+
+
+

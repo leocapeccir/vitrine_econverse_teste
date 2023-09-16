@@ -1,0 +1,132 @@
+$corbranco: #FFFF;
+$corrosaprimario:#F71963;
+$corcinza1:#9F9F9F;
+$corcinza2:#F6F5F2;
+$corcinza3: #F0F0F0;
+$corpreta3:#4E4E4E;
+$corpreta2:#3F3F40;
+$corpreta1:#2A2A2A;
+$corcinza2:#808080;
+$corcinza4: #F0F0F0;
+$corcinza5: #DEDEDE;
+$corcinza6: #BDBDBD;
+
+
+
+.container__parceiros {
+
+    display: flex;
+    margin-top: 30px;
+    background: none;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 40px;
+    
+
+
+    
+
+
+}
+.container__parceiros--banner {
+
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-image: url('./images_parceiros/image\ 45.png');
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 85.04%), url('./images_parceiros/image\ 45.png');
+    opacity: 80%;;
+    width: 574px;
+    height: 350px;
+    border-radius: 20px;
+    
+
+}
+
+.parceiros__descricao {
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-left: 40px;
+    padding-top: 70px;
+
+
+}
+
+.descricao__titulo {
+
+
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 60px;
+    color: $corbranco;
+
+}
+
+.descricao__subtitulo {
+
+    width: 185px;
+    height: 48px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: $corbranco;
+    
+
+}
+
+.botao__parceiros {
+
+    
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 24px;
+    background-color: $corrosaprimario;
+    color: $corbranco;
+    width: 134px;
+    height: 48px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.container__produtos--relacionados {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 5px;
+    
+    
+}
+
+.container__relacionados--borda {
+
+    border-top: 1px solid $corcinza5;
+    width: 360px;
+}
+
+
+.titulo__relacionados {
+
+    width: 350px;
+    height: 45px;
+    background-color: $corbranco;
+    font-weight: 700;
+    font-size: 30px;
+    color: $corrosaprimario;
+}
+
+.descricao__vertodos {
+
+    text-align: center;
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 23px;
+    color: $corpreta2;
+
+    
+}

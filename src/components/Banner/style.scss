@@ -1,0 +1,86 @@
+$corbranco: #FFFF;
+$corrosaprimario:#F71963;
+$corcinza1:#9F9F9F;
+$corcinza2:#F6F5F2;
+$corcinza3: #F0F0F0;
+$corpreta3:#4E4E4E;
+$corpreta2:#3F3F40;
+$corpreta1:#2A2A2A;
+$corcinza2:#808080;
+$corcinza4: #F0F0F0;
+
+
+.container__banner {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 72px;
+    padding-left: 89px;
+    background-image: url('./images_banner/banner.png');
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 85.04%), url('./images_banner/banner.png');
+    width: 1443px;
+    height: 395px;
+
+}
+
+
+.container__banner {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 89px;
+    background-image: url('./images_banner/banner.png');
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 85.04%), url('./images_banner/banner.png');
+    width: 1443px;
+    height: 395px;
+
+}
+
+
+
+.container__descricao {
+
+    display: flex;
+    font-weight: 600;
+    font-size: 48px;
+    color: $corbranco;
+
+
+}
+
+.banner__desconto {
+   
+    font-weight: 600;
+    font-size: 36px;
+    color: $corbranco;
+
+}
+
+.banner__desconto--item {
+   
+    font-weight: 600;
+    font-size: 36px;
+    color: $corbranco;
+
+}
+
+
+.botao__banner {
+
+    width: 227px;
+    height: 60px;
+    border-radius: 5px;
+    border: none;
+    background-color: $corrosaprimario;
+    color: $corbranco;
+    font-weight: 600;
+    font-size: 18px;
+    margin-top: 20px;
+    cursor: pointer;
+
+
+}
+
+

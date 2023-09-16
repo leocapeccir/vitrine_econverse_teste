@@ -1,0 +1,157 @@
+$corbranco: #FFFF;
+$corrosaprimario:#F71963;
+$corcinza1:#9F9F9F;
+$corcinza2:#F6F5F2;
+$corcinza3: #F0F0F0;
+$corpreta3:#4E4E4E;
+$corpreta2:#3F3F40;
+$corpreta1:#2A2A2A;
+$corcinza2:#808080;
+$corcinza4: #F0F0F0;
+$corcinza5: #DEDEDE;
+$corcinza6: #BDBDBD;
+
+
+
+.container__produtos {
+
+    display: flex;
+    margin-top: 30px;
+    background: none;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 40px;
+    
+
+
+    
+
+
+}
+.container__produtos--banner {
+
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-image: url('./images_produtos/image\ 45.png');
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 85.04%), url('./images_produtos/image\ 45.png');
+    opacity: 80%;;
+    width: 589px;
+    height: 284px;
+    border-radius: 20px;
+    
+
+}
+
+.produtos__descricao {
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-left: 40px;
+    padding-top: 5px;
+
+
+}
+
+.descricao__titulo {
+
+
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 60px;
+    color: $corbranco;
+
+}
+
+.descricao__subtitulo {
+
+    width: 185px;
+    height: 48px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: $corbranco;
+    
+
+}
+
+.botao__produtos {
+
+    
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 24px;
+    background-color: $corrosaprimario;
+    color: $corbranco;
+    width: 134px;
+    height: 48px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+
+.container__alinha--marcas {
+
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 40px;
+    overflow-x: scroll;
+    width: 100%;
+    
+
+}
+
+
+.seta__marcas {
+
+    
+    width: 56px;
+    height: 56px;
+    position: absolute;
+    top: 43%;
+    transform: translateY(-50%);
+    right: 20px;
+    background-image: none;
+    z-index: 999;
+    
+    
+    
+    
+    
+}
+
+.container__redondo {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 211px;
+    height: 211px;
+    box-shadow: 0px 7px 20px 0px #00000021;
+    border-radius: 50%;
+
+
+}
+
+.vtex__marca {
+
+    border: 1px solid $corbranco;
+    width: 172px;
+    height: 62px;
+    text-align: center;
+
+}
+
+
+.container__titulo--marcas {
+
+    font-weight: 700;
+    font-size: 30px;
+    color: $corrosaprimario;
+    text-align: center;
+    padding-bottom: 40px;
+}

@@ -1,0 +1,252 @@
+$corbranco: #FFFF;
+$corrosaprimario:#F71963;
+$corcinza1:#9F9F9F;
+$corcinza2:#F6F5F2;
+$corcinza3: #F0F0F0;
+$corpreta3:#4E4E4E;
+$corpreta2:#3F3F40;
+$corpreta1:#2A2A2A;
+$corcinza2:#808080;
+$corcinza4: #F0F0F0;
+$corcinza5: #DEDEDE;
+$corcinza6: #BDBDBD;
+$corcinza7: $corcinza3;
+
+
+.container__footer {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: $corpreta1;
+    width: 100%;
+    height: 325px;
+    padding-left: 30px;
+}
+
+.container__sobre {
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 149px;
+    height: 224px;
+   
+
+}
+
+
+.descricao__sobre--titulo {
+
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 19.5px;
+    color: $corbranco;
+}
+
+.container__sobre--texto {
+
+    width: 146px;
+    height: 128px;
+    padding-top: 30px;
+}
+
+.descricao__sobre--texto {
+
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 32px;
+    color: $corbranco;
+    
+
+
+}
+
+
+.container__icones--redessociais {
+
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    
+}
+
+
+
+
+.container__info {
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 149px;
+    height: 224px;
+    
+
+}
+
+
+.descricao__info--titulo {
+
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 19.5px;
+    color: $corbranco;
+}
+
+.container__info--texto {
+
+    width: 150px;
+    height: 192px;
+}
+
+.descricao__info--texto {
+
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 32px;
+    color: $corbranco;
+    text-transform: uppercase;
+
+
+}
+
+
+.container__formas__de--pagamento {
+
+
+    padding-bottom: 30px;
+}
+
+
+.container__formas--pagamento {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: $corpreta1;
+    width: 195px;
+    height: 193px;
+    
+}
+
+.container__formas--pagamento-item {
+
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    width: 149px;
+    height: 224px;
+    padding-top: 20px;
+    
+
+}
+
+.container__titulo--pagamento {
+
+    display: flex;
+    
+    
+}
+
+
+.formas__pagamento--titulo {
+
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 19.5px;
+    color: $corbranco;
+    line-height: 20px;
+}
+
+.alinha__vertical {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.container__email {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 380px;
+    height: 260px;
+    background-color: $corbranco;
+    border-radius: 10px;
+}
+
+.container__email--titulo {
+    
+    text-align: center;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 26px;
+    color: $corpreta1;
+    padding-top: 20px;
+}
+
+.descricao__email {
+
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 26px;
+}
+
+
+.descricao__email--negrito {
+
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 26px;
+}
+
+.descricao__container--email {
+
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.input__container--email {
+
+    
+    border-radius: 4px;
+    width: 230px;
+    height: 45px;
+}
+
+#campobuscaemail {
+
+    width: 230px;
+    height: 45px;
+    border-radius: 4px;
+    border: 1px solid $corpreta1;
+    text-align: center;
+    font-weight: 400;
+    font-size: 12px;
+    color: $corpreta1;
+}
+
+.botao__email {
+
+    width: 62px;
+    height: 45px;
+    font-weight: 700;
+    font-size: 14px;
+    background-color: $corrosaprimario;
+    border: none;
+    color: $corbranco;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.alinha__container--email {
+
+    display: flex;
+    justify-content: space-evenly;
+   
+}

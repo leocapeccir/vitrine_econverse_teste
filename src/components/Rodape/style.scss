@@ -1,0 +1,65 @@
+$corbranco: #FFFF;
+$corrosaprimario:#F71963;
+$corcinza1:#9F9F9F;
+$corcinza2:#F6F5F2;
+$corcinza3: #F0F0F0;
+$corpreta3:#4E4E4E;
+$corpreta2:#3F3F40;
+$corpreta1:#2A2A2A;
+$corcinza2:#808080;
+$corcinza4: #F0F0F0;
+$corcinza5: #DEDEDE;
+$corcinza6: #BDBDBD;
+
+
+.container__footer--base {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    border-top: solid 1px $corbranco;
+    width: 100%;
+    height: 70px;
+    background-color: $corpreta1;
+    padding: 0 40px 0 40px;
+
+
+  }
+  
+  .container__footer--descricao-base {
+
+
+    width: 698px;
+    height: 46px;
+  }
+  
+  .footer__descricao--base {
+
+
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 13px;
+    color: $corbranco;
+    text-transform: uppercase;
+  }
+
+
+  
+  .container__icone--esconverse {
+
+
+    margin-right: 10px; 
+
+
+  }
+  
+
+  .icone__econverse {
+    width: 226px;
+    height: 32px;
+
+    
+  }
+
+
+  
